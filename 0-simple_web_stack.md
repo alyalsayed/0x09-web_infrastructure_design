@@ -10,11 +10,11 @@ This is a simple web infrastructure that hosts a website that is reachable via `
 
 ## Specifics About This Infrastructure
 
-+ What is a server ?<br/>This is a computer hardware or software that provides functionalities for other programs or devices, called *clients*.
++ What is a server?<br/>This is a computer hardware or software that provides functionalities for other programs or devices, called *clients*.
 
-+ What is the role of the domain name ?<br/>To provide a human-friendly alias for an IP Address. For example, the domain name `www.wikipedia.org` is easier to recognize and remember than `91.198.174.192`. The IP address and domain name alias is mapped in the Domain Name System (DNS)
++ What is the role of the domain name?<br/>To provide a human-friendly alias for an IP Address. It maps a user friendly name to an IP Address of a server where the actual resource sits. For example, the domain name `www.wikipedia.org` is easier to recognize and remember than `91.198.174.192`. The IP address and domain name alias is mapped in the Domain Name System (DNS)
 
-+ The type of DNS record `www`  in `www.foobar.com`.<br/>`www.foobar.com` uses an **A record**. This can be checked by running `dig www.foobar.com`.<br/>**Note:** the results might be different but for the infrastructure in this design, an **A** record is used.<br/>
++ The type of DNS record `www`  in `www.foobar.com`.<br/>`www.foobar.com uses a CNAME record that points to foobar.com. foobar.com` uses an **A record**. This can be checked by running `dig www.foobar.com`.<br/>**Note:** the results might be different but for the infrastructure in this design, an **A** record is used.<br/>
 <i>Address Mapping record (A Record)—also known as a DNS host record, stores a hostname and its corresponding IPv4 address.</i>
 
 + The role of the web server.<br/>The web server is a software/hardware that accepts requests via HTTP or secure variant (HTTPS) and responds with the content of the requested resource or an error messsage.
