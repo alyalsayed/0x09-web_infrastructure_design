@@ -9,7 +9,7 @@ This web infrastructure is a scaled up version of the infrastructure described [
 
 ## Specifics About This Infrastructure
 
-+ The addition of a firewall between each server.<br/>This protects each server from unwanted and unauthorized users rather than protecting a single server.
++ The addition of a firewall between each server.<br/>This protects each server from unwanted and unauthorized users rather than protecting a single server. A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
 
 ## Issues With This Infrastructure
 
